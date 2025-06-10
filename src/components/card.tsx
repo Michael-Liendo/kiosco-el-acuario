@@ -1,4 +1,4 @@
-import { ButtonPrimary } from "./buttons";
+import Button from "./button";
 
 export const Card = ({
 	title,
@@ -24,13 +24,13 @@ export const Card = ({
 			<div className="p-6">
 				<h1 className="text-xl font-bold mb-1">{title}</h1>
 				<p>{desc}</p>
-				<p className="text-md text-[#BA68C8] font-bold">${price}</p>
+				<p className="text-md text-sunset-purple font-bold">${price}</p>
 				<div className="flex gap-2 mt-4">
 					<div className="flex gap-2">
-						{tags.map((tag, index) => (
+						{tags.map((tag) => (
 							<p
-								key={index}
-								className="text-sm bg-[#BA68C8] text-white px-2 py-1 rounded-full"
+								key={tag}
+								className="text-sm bg-sunset-purple text-white px-2 py-1 rounded-full"
 							>
 								{tag}
 							</p>
@@ -38,7 +38,7 @@ export const Card = ({
 					</div>
 				</div>
 				<div className="mt-8 flex gap-2 justify-end">
-					<ButtonPrimary>Primario</ButtonPrimary>
+					<Button>Primario</Button>
 				</div>
 			</div>
 		</div>

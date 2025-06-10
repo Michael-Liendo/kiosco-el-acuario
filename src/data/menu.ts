@@ -13,7 +13,7 @@ const products: Product[] = [
 		title: "Cervezas",
 		desc: "Bebidas de alta calidad",
 		img: "assets/beach-with-optimice/cervezas.jpg",
-		price: 10.50,
+		price: 10.5,
 		tags: ["Bebidas", "Cervezas"],
 	},
 ];
