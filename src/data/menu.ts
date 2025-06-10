@@ -4,10 +4,9 @@ export interface MenuItem {
 	price: string | number | null;
 	image: string;
 }
-
 export const menu: MenuItem[] = [
 	{
-		title: "CAMARONES AJILLO",
+		title: "Camarones ajillo",
 		description:
 			"Tostón, Ensalada, Queso, Salsa, Aguacate, Arepita, Papa fritas",
 		price: 23,
@@ -15,13 +14,12 @@ export const menu: MenuItem[] = [
 	},
 	{
 		title: "Empanadas",
-		description:
-			"altin, cazón, Camaron Mechada, Pollo, Molida, salchichas, Queso",
+		description: "cazón, Camarón, Mechada, Pollo, Molida, Salchichas, Queso",
 		price: 2.5,
 		image: "empanadas.jpg",
 	},
 	{
-		title: "Combo de Cervezas",
+		title: "Combo de cervezas",
 		description:
 			"Cz, CERVEZA, ZULIA, LAURIGINAL, CULEA, CERVE, ZULIA, Cabitas. 10x 10$, Cabitas 12 x 12$, Cabitas 15 x 15$, hielo y destapador",
 		price: null,
@@ -30,20 +28,20 @@ export const menu: MenuItem[] = [
 	{
 		title: "Bebidas",
 		description:
-			"PEPSI, maltin, maltin, nevada, nevad, Refresco 1.5L, Agua. 1.5L, Malta",
+			"PEPSI, maltin, nevada, nevad, Refresco 1.5L, Agua. 1.5L, Malta",
 		price: "$3.5 $3.5 $1.55",
 		image: "bebidas.jpg",
 	},
 	{
-		title: "Tostón Familiar",
-		description: "15 pieza de toston, Ensalada, Salsa, Queso, Aguacate",
+		title: "Tostón familiar",
+		description: "15 pieza de tostón, Ensalada, Salsa, Queso, Aguacate",
 		price: 13,
 		image: "toston-familiar.jpg",
 	},
 	{
-		title: "Combo de Roncador",
+		title: "Combo de roncador",
 		description:
-			"Toston, Ensalada, Queso, Salsa, Aguacate, Arepita, Papa frita",
+			"Tostón, Ensalada, Queso, Salsa, Aguacate, Arepita, Papa frita",
 		price: 17,
 		image: "combo-roncador.jpg",
 	},
@@ -55,14 +53,14 @@ export const menu: MenuItem[] = [
 		image: "pargo-frito.jpg",
 	},
 	{
-		title: "fosforera",
+		title: "Fosforera",
 		description:
 			"Camarones, Calamar, pepitona, Pulpo, Mejillón, Jaiba, Almeja, Vaquita, Arepitas",
 		price: 15,
 		image: "fosforera.jpg",
 	},
 	{
-		title: "Camarones Reborado",
+		title: "Camarones rebosado",
 		description:
 			"Toston, Ensalada, Queso, Aguacate, Arepita, Papa frita, Salsa tártara",
 		price: 20,
@@ -76,19 +74,13 @@ export const menu: MenuItem[] = [
 		image: "deditos-pescado.jpg",
 	},
 	{
-		title: "MEDREGAL",
+		title: "Medregal",
 		description:
 			"Tostón, Ensalada, Queso, Salsa, Aguacate, Arepita, Papa frita",
 		price: 16,
 		image: "medregal.jpg",
 	},
-	{
-		title: "CAMARONES AJILLO",
-		description:
-			"Tostón, Ensalada, Queso, Salsa, Aguacate, Arepita, Papa fritas",
-		price: 23,
-		image: "camarones-ajillo.jpg",
-	},
+
 	{
 		title: "Mixto de camarón",
 		description:

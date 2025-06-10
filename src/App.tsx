@@ -11,7 +11,7 @@ function App() {
 				<Header />
 
 				<main className="flex-grow container mx-auto px-4 py-8 space-y-4">
-					{menu.map((item, index) => (
+					{menu.map((item) => (
 						<Card
 							description={item.description}
 							image={item.image}
