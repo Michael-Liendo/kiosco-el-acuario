@@ -1,4 +1,4 @@
-import { Phone, Clock, Instagram } from "lucide-react";
+import { Clock, Instagram, Phone } from "lucide-react";
 
 const Footer: React.FC = () => {
 	return (
