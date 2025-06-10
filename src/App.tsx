@@ -1,5 +1,7 @@
+import { Card } from "./components/card";
 import Footer from "./components/footer";
 import Header from "./components/header";
+import { menu } from "./data/menu";
 import "./index.css";
 
 function App() {
@@ -8,8 +10,16 @@ function App() {
 			<div className="min-h-screen flex flex-col bg-gray-50">
 				<Header />
 
-				<main className="flex-grow container mx-auto px-4 py-8">
-					{/* here the menu card */}
+				<main className="flex-grow container mx-auto px-4 py-8 space-y-4">
+					{menu.map((item, index) => (
+						<Card
+							description={item.description}
+							image={item.image}
+							key={item.title}
+							price={item.price}
+							title={item.title}
+						/>
+					))}
 				</main>
 				<Footer />
 			</div>
