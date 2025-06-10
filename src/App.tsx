@@ -9,8 +9,7 @@ function App() {
 				<Header />
 
 				<main className="flex-grow container mx-auto px-4 py-8">
-					{/* <FeaturedSection items={featuredItems} /> */}
-					{/* <CategoryMenu categories={categories} items={menuItems} /> */}
+					{/* here the menu card */}
 				</main>
 				<Footer />
 			</div>
