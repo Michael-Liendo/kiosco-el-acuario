@@ -33,6 +33,7 @@ const Footer: React.FC = () => {
 						<div>
 							<p>Sábado-Domingo: 8am-6pm</p>
 							<p>Feriados: 8am-6pm</p>
+							<p>Reservaciones</p>
 						</div>
 					</div>
 				</div>
