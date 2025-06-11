@@ -14,21 +14,20 @@ export const menu: MenuItem[] = [
 	},
 	{
 		title: "Empanadas",
-		description: "cazón, Camarón, Mechada, Pollo, Molida, Salchichas, Queso",
+		description: "Cazón, Camarón, Mechada, Pollo, Molida, Salchichas, Queso",
 		price: 2.5,
 		image: "empanadas.jpg",
 	},
 	{
 		title: "Combo de cervezas",
 		description:
-			"Cz, CERVEZA, ZULIA, LAURIGINAL, CULEA, CERVE, ZULIA, Cabitas. 10x 10$, Cabitas 12 x 12$, Cabitas 15 x 15$, hielo y destapador",
+			"Cz, CERVEZA, ZULIA, ZULIA. 10x 10$, Cabitas 12 x 12$, Cabitas 15 x 15$, hielo y destapador",
 		price: null,
 		image: "cervezas.jpg",
 	},
 	{
 		title: "Bebidas",
-		description:
-			"PEPSI, maltin, nevada, nevad, Refresco 1.5L, Agua. 1.5L, Malta",
+		description: "PEPSI, nevada, Refresco 1.5L, Agua. 1.5L, Malta",
 		price: "$3.5 $3.5 $1.55",
 		image: "bebidas.jpg",
 	},
@@ -87,5 +86,12 @@ export const menu: MenuItem[] = [
 			"Tostón, Ensalada, Queso, Salsa, Aguacate, Arepita, Papa frita, salsa tártara, y calamar",
 		price: 23,
 		image: "mixto.jpg",
+	},
+	{
+		title: "Rueda Carite",
+		description:
+			"Ajillo, Tostón, Ensalada, Queso, Salsa, Aguacate, Arepita, Papa frita",
+		image: "rueda-carite.jpg",
+		price: 16,
 	},
 ];
