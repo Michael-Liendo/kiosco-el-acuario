@@ -6,17 +6,16 @@ export interface MenuItem {
 }
 export const menu: MenuItem[] = [
 	{
-		title: "Camarones ajillo",
-		description:
-			"Tostón, Ensalada, Queso, Salsa, Aguacate, Arepita, Papa fritas",
-		price: 23,
-		image: "camarones-ajillo.jpg",
-	},
-	{
 		title: "Empanadas",
 		description: "Cazón, Camarón, Mechada, Pollo, Molida, Salchichas, Queso",
 		price: 2.5,
 		image: "empanadas.jpg",
+	},
+	{
+		title: "Bebidas",
+		description: "PEPSI, nevada, Refresco 1.5L, Agua. 1.5L, Malta",
+		price: "$3.5 $3.5 $1.55",
+		image: "bebidas.jpg",
 	},
 	{
 		title: "Combo de cervezas",
@@ -26,11 +25,13 @@ export const menu: MenuItem[] = [
 		image: "cervezas.jpg",
 	},
 	{
-		title: "Bebidas",
-		description: "PEPSI, nevada, Refresco 1.5L, Agua. 1.5L, Malta",
-		price: "$3.5 $3.5 $1.55",
-		image: "bebidas.jpg",
+		title: "Camarones ajillo",
+		description:
+			"Tostón, Ensalada, Queso, Salsa, Aguacate, Arepita, Papa fritas",
+		price: 23,
+		image: "camarones-ajillo.jpg",
 	},
+
 	{
 		title: "Tostón familiar",
 		description: "15 pieza de tostón, Ensalada, Salsa, Queso, Aguacate",
@@ -61,14 +62,14 @@ export const menu: MenuItem[] = [
 	{
 		title: "Camarones rebosado",
 		description:
-			"Toston, Ensalada, Queso, Aguacate, Arepita, Papa frita, Salsa tártara",
+			"Tostón, Ensalada, Queso, Aguacate, Arepita, Papa frita, Salsa tártara",
 		price: 20,
 		image: "camarones-rebosado.jpg",
 	},
 	{
 		title: "Deditos de pescado",
 		description:
-			"Toston, Ensalada, Queso, Aguacate, Arepita, Papa frita, Salsa tártara",
+			"Tostón, Ensalada, Queso, Aguacate, Arepita, Papa frita, Salsa tártara",
 		price: 18,
 		image: "deditos-pescado.jpg",
 	},

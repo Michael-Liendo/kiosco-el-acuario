@@ -5,27 +5,29 @@ const Footer: React.FC = () => {
 		<footer className="bg-gradient-to-bl to-white from-sunset-blue shadow-lg text-dark-text py-6 px-6">
 			<div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
 				<div>
-					<h3 className="text-lg font-bold mb-3">Contáctenos</h3>
+					<p className="text-lg font-bold mb-3">Contáctenos</p>
 					<div className="flex items-center mb-2">
 						<Phone size={16} className="mr-2" />
-						<a className=" underline text-coral-pink" href="tel:+584140320098">
-							+58 414 032 0098
+						<a className=" underline text-coral-pink" href="tel:+584122931067">
+							+58 412 293 1067
 						</a>
 					</div>
 					<div className="flex items-center">
 						<Instagram size={16} className="mr-2" />
 
 						<a
+							rel="noreferrer"
+							target="_blank"
 							className="underline text-coral-pink"
-							href="http://instagram.com/"
+							href="http://instagram.com/playalarompe"
 						>
-							@larompe
+							@playalarompe
 						</a>
 					</div>
 				</div>
 
 				<div>
-					<h3 className="text-lg font-bold mb-3">Horario</h3>
+					<p className="text-lg font-bold mb-3">Horario</p>
 					<div className="flex items-start mb-2">
 						<Clock size={16} className="mr-2 mt-1" />
 						<div>
@@ -36,8 +38,10 @@ const Footer: React.FC = () => {
 				</div>
 
 				<div>
-					<h3 className="text-lg font-bold mb-3">Ubicación</h3>
+					<p className="text-lg font-bold mb-3">Ubicación</p>
 					<a
+						rel="noreferrer"
+						target="_blank"
 						className="underline text-coral-pink"
 						href="https://maps.app.goo.gl/MM9rEoJ9fSaUWbMh7"
 					>
