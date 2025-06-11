@@ -11,7 +11,7 @@ export const Card = ({ title, description, image, price }: MenuItem) => {
 
 			<div className="p-6">
 				<h1 className="text-2xl font-bold mb-1">{title}</h1>
-				<p>{description}</p>
+				<p style={{ whiteSpace: "pre-wrap" }}>{description}</p>
 
 				<div className="flex gap-2 justify-end">
 					<p className="text-xl text-dark-text font-bold">

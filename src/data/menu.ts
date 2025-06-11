@@ -13,14 +13,14 @@ export const menu: MenuItem[] = [
 	},
 	{
 		title: "Bebidas",
-		description: "PEPSI, nevada, Refresco 1.5L, Agua. 1.5L, Malta",
-		price: "$3.5 $3.5 $1.55",
+		description: "Refresco 1.5L 3.5$\nAgua 3.5$\nMalta 1.5$",
+		price: null,
 		image: "bebidas.jpg",
 	},
 	{
 		title: "Combo de cervezas",
 		description:
-			"Cz, CERVEZA, ZULIA, ZULIA. 10x 10$, Cabitas 12 x 12$, Cabitas 15 x 15$, hielo y destapador",
+			"Cabitas 10x10$ \nCabitas 12x12$ \nCabitas 15x15$ \nHielo y destapador",
 		price: null,
 		image: "cervezas.jpg",
 	},
@@ -82,9 +82,9 @@ export const menu: MenuItem[] = [
 	},
 
 	{
-		title: "Mixto de camarón",
+		title: "Mixto de camarón y calamar",
 		description:
-			"Tostón, Ensalada, Queso, Salsa, Aguacate, Arepita, Papa frita, salsa tártara, y calamar",
+			"Tostón, Ensalada, Queso, Salsa, Aguacate, Arepita, Papa frita, salsa tártara",
 		price: 23,
 		image: "mixto.jpg",
 	},

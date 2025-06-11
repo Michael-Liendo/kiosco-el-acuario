@@ -1,3 +1,4 @@
+import { Analytics } from "@vercel/analytics/react";
 import { Card } from "./components/card";
 import Footer from "./components/footer";
 import Header from "./components/header";
@@ -7,6 +8,7 @@ import "./index.css";
 function App() {
 	return (
 		<>
+			<Analytics />
 			<div className="min-h-screen flex flex-col bg-gray-50">
 				<Header />
 
