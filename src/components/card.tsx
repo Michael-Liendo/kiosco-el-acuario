@@ -6,6 +6,8 @@ export const Card = ({ title, description, image, price }: MenuItem) => {
 			<img
 				src={`/menu/${image}`}
 				alt={title}
+				width={343}
+				height={320}
 				className="w-full object-[50%_70%] object-cover rounded-t-lg h-80"
 			/>
 
