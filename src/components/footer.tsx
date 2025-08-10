@@ -8,7 +8,17 @@ const Footer: React.FC = () => {
 					<p className="text-lg font-bold mb-3">Contáctenos</p>
 					<div className="flex items-center mb-2">
 						<Phone size={16} className="mr-2" />
+						<a className="underline text-coral-pink" href="tel:+584140320098">
+							<span className="mr-1.5 text-black">Servicio de comida:</span>
+							+58 414 032 0098
+						</a>
+					</div>
+					<div className="flex items-center mb-2">
+						<Phone size={16} className="mr-2" />
 						<a className=" underline text-coral-pink" href="tel:+584122931067">
+							<span className="mr-1.5 text-black no-underline">
+								Servicio de toldos:
+							</span>
 							+58 412 293 1067
 						</a>
 					</div>
