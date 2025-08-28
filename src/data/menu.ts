@@ -8,7 +8,7 @@ export const menu: MenuItem[] = [
 	{
 		title: "Empanadas",
 		description:
-			"Cazón, Camarón, Mechada, Pollo, Molida, Salchichas, Queso y Plátano con queso",
+			"Cazón, Camarón, Mechada, Pollo, Mozzarella, Molida, Salchichas, Queso y Plátano con queso",
 		price: 2.5,
 		image: "empanadas.webp",
 	},
@@ -57,7 +57,7 @@ export const menu: MenuItem[] = [
 		title: "Fosforera",
 		description:
 			"Camarones, Calamar, pepitona, Pulpo, Mejillón, Jaiba, Almeja, Vaquita, y Arepitas",
-		price: 15,
+		price: 16,
 		image: "fosforera.webp",
 	},
 	{
